@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST BERHASIL!</title>
+    <title>Flask & Vercel Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>APLIKASI INI SUDAH BISA DIJANGKAU!</h1>
-    <p>Jika Anda melihat ini, Vercel berhasil menyajikan file statis.</p>
+    <div class="container">
+        <h1>Aplikasi Web Flask & Vercel</h1>
+        <p id="apiResponse">Memuat dari Flask API...</p>
+
+        <input type="text" id="nameInput" placeholder="Masukkan nama Anda">
+        <button id="greetButton">Sapa Flask API</button>
+
+        <hr>
+
+        <input type="text" id="itemInput" placeholder="Kirim item ke API">
+        <button id="sendButton">Kirim Data ke API</button>
+        <p id="postResponse"></p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
